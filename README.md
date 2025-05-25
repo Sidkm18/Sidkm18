@@ -21,18 +21,14 @@
 
 ### AR/VR & 3D Development
 <img src="https://skillicons.dev/icons?i=unity,blender&theme=dark" />
-<img src="https://img.shields.io/badge/3D%20Modeling-FF6B6B?style=for-the-badge&logo=blender&logoColor=white" />
-<img src="https://img.shields.io/badge/Environment%20Design-4ECDC4?style=for-the-badge&logo=unity&logoColor=white" />
 
 ### Cybersecurity Arsenal
-<img src="https://skillicons.dev/icons?i=linux&theme=dark" />
 <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
 <img src="https://img.shields.io/badge/OSINT-FF6B6B?style=for-the-badge&logo=searchengineland&logoColor=white" />
 <img src="https://img.shields.io/badge/Reverse%20Engineering-4ECDC4?style=for-the-badge&logo=ghidra&logoColor=white" />
 <img src="https://img.shields.io/badge/Cryptography-45B7D1?style=for-the-badge&logo=keybase&logoColor=white" />
 
 ### AI/ML & Hardware
-<img src="https://img.shields.io/badge/Neural%20Networks-FF6B6B?style=for-the-badge&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
 <img src="https://img.shields.io/badge/Edge%20Impulse-4ECDC4?style=for-the-badge&logo=edgeimpulse&logoColor=white" />
 
@@ -97,8 +93,8 @@ Planning to dive into Unreal Engine for high-fidelity simulations and photoreali
 ## 📊 **Programming Stats**
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&langs_count=7&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sidkm18&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidkm18&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
 ---
