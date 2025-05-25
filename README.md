@@ -204,7 +204,7 @@ Creating immersive virtual chemistry laboratories using Unity and Blender. Stude
 
 Built a minimalist, distraction-friendly task management tool specifically designed to keep focus sharp and study sessions productive. This local web application goes beyond basic task management by providing satisfying UI feedback and motivating audio cues that make staying on track feel rewarding and fun.
 
-[<img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />]([your-todo-app-repo-link](https://github.com/Sidkm18/ADHD_To_Do_List))
+[<img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/Sidkm18/ADHD_To_Do_List)
 
 ---
 
