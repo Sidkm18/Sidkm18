@@ -1,10 +1,3 @@
-# Sidharth Kamath
-
-Aspiring cybersecurity engineer | AR/VR & Game Development enthusiast | Competitive programmer  
-Rapidly prototyping, breaking things, and learning fast.
-
----
-
 ## 🔬 Projects
 
 ### 📡 AI/ML-based Malware & Anomaly Detection for Open Source SOCs - Ongoing
