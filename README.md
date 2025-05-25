@@ -112,8 +112,6 @@ Planning to dive into Unreal Engine for high-fidelity simulations and photoreali
 <img src="https://img.shields.io/badge/Problems%20Solved-150%2B-FF6B6B?style=for-the-badge&logo=codechef&logoColor=white" />
 <img src="https://img.shields.io/badge/Global%20Rank-~10k%20Average-4ECDC4?style=for-the-badge&logo=ranklist&logoColor=white" />
 <img src="https://img.shields.io/badge/Focus%20Areas-DP%20%7C%20Graphs%20%7C%20Number%20Theory-45B7D1?style=for-the-badge" />
-
-**Quick Links:** 
 [<img src="https://img.shields.io/badge/My%20CodeChef-sidkm18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />](https://codechef.com/users/sidkm18)
 [<img src="https://img.shields.io/badge/My%20Codeforces-sidkm18-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />](https://codeforces.com/profile/sidkm18)
 [<img src="https://img.shields.io/badge/My%20HackerRank-sidkm18-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />](https://hackerrank.com/profile/sidkm18)
