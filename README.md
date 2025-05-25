@@ -123,10 +123,13 @@ Planning to dive into Unreal Engine for high-fidelity simulations and photoreali
 
 ## 🛡️ **Cybersecurity Adventures**
 
+
 <div align="center">
   <img src="https://img.shields.io/badge/CTF%20Events-5%2B%20Participated-FF6B6B?style=for-the-badge&logo=hackthebox&logoColor=white" />
   <img src="https://img.shields.io/badge/KJSCE%20CTF%202025-Certificate%20Earned-4ECDC4?style=for-the-badge&logo=security&logoColor=white" />
   <img src="https://img.shields.io/badge/Top%2020%25-Rank%20Achieved-45B7D1?style=for-the-badge&logo=trophy&logoColor=white" />
+  
+  [<img src="https://img.shields.io/badge/View%20My%20CTF%20Journey-Detailed%20Writeups-FF6B6B?style=for-the-badge&logo=readme&logoColor=white" />](./info_directory/CTF_PARTICIPATION.md)
 </div>
 
 ### 🎯 **Specialization Areas**
