@@ -245,8 +245,8 @@ I believe the most innovative solutions emerge when you understand problems from
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-kamathsidharth5%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kamathsidharth5@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
-[![GitHub](https://img.shields.io/badge/GitHub-You're%20already%20here!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/sidkm18)
+[![GitHub](https://img.shields.io/badge/GitHub-You're%20already%20here!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sidkm18)
 
 </div>
 
