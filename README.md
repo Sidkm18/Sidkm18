@@ -1,7 +1,7 @@
 # Sidharth Kamath
 
-> Aspiring cybersecurity engineer | AR/VR & Game Development enthusiast | Competitive programmer  
-> Rapidly prototyping, breaking things, and learning fast.
+Aspiring cybersecurity engineer | AR/VR & Game Development enthusiast | Competitive programmer  
+Rapidly prototyping, breaking things, and learning fast.
 
 ---
 
@@ -35,7 +35,7 @@
 
 ---
 
-> 🧭 Currently exploring low-level systems, malware detection, and XR tech. Open to research collabs, internships, or code audits.
+🧭 Currently exploring low-level systems, malware detection, and XR tech. Open to research collabs, internships, or code audits.
 
 ---
 
