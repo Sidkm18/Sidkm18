@@ -140,15 +140,13 @@ Planning to dive into Unreal Engine for high-fidelity simulations and photoreali
 
 ## 🚀 **Featured Projects**
 
-### 🤖 **AI Malware Detection System** *(Leading Research)*
+### 🤖 **AI Malware Detection System**
 
 <div align="left">
 <img src="https://img.shields.io/badge/Status-In%20Progress-FF6B6B?style=flat-square" />
 <img src="https://img.shields.io/badge/Team-6%20Members-4ECDC4?style=flat-square" />
 <img src="https://img.shields.io/badge/Faculty-Guided-45B7D1?style=flat-square" />
 </div>
-
-Spearheading cutting-edge research on behavioral pattern analysis for detecting zero-day threats and signatureless attacks. Our goal is integration with open-source Security Operations Centers to revolutionize threat detection.
 
 **Key Innovations:**
 - 🧠 Behavioral analysis algorithms for unknown malware detection
@@ -193,6 +191,20 @@ Creating immersive virtual chemistry laboratories using Unity and Blender. Stude
 - ⚗️ Realistic chemistry reaction simulations
 - 🎮 Intuitive VR user interaction systems
 - 📚 Educational accessibility and engagement
+
+---
+
+### 📝 **ADHD Task Manager** *(Personal Productivity Tool)*
+
+<div align="left">
+<img src="https://img.shields.io/badge/Status-Completed-00C851?style=flat-square" />
+<img src="https://img.shields.io/badge/Platform-Local%20Web%20App-4ECDC4?style=flat-square" />
+<img src="https://img.shields.io/badge/Purpose-Personal%20Use-45B7D1?style=flat-square" />
+</div>
+
+Built a minimalist, distraction-friendly task management tool specifically designed to keep focus sharp and study sessions productive. This local web application goes beyond basic task management by providing satisfying UI feedback and motivating audio cues that make staying on track feel rewarding and fun.
+
+[<img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />]([your-todo-app-repo-link](https://github.com/Sidkm18/ADHD_To_Do_List))
 
 ---
 
