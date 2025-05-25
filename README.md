@@ -23,22 +23,6 @@ Rapidly prototyping, breaking things, and learning fast.
 
 ---
 
-## 📜 Certifications & Cybersecurity Work
-
-### 🛡️ Network Ethical Hacking Fundamentals
-- Penetration testing with Kali Linux  
-- Packet sniffing, spoofing, vulnerability analysis
-
-### 🕵️‍♂️ KJSCE CTF 2025
-- Competed in 5+ CTF challenges  
-- Applied OSINT, reverse engineering, and steganography in timed scenarios
-
----
-
-🧭 Currently exploring low-level systems, malware detection, and XR tech. Open to research collabs, internships, or code audits.
-
----
-
 ## 🧠 Technical Skills
 
 **Languages:** C++, Python, Java, C, HTML/CSS  
@@ -46,5 +30,9 @@ Rapidly prototyping, breaking things, and learning fast.
 **Developer Tools:** VS Code, IntelliJ IDEA  
 **Hardware/Platforms:** ESP32, Linux, macOS  
 **Soft Skills:** Problem Solving, Team Collaboration, Fast Learner
+
+---
+
+🧭 Currently exploring low-level systems, malware detection, and XR tech. Open to research collabs, internships, or code audits.
 
 ---
