@@ -7,7 +7,7 @@
 
 <div align="center">
   
-[![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=AR%2FVR+Developer+%7C+Cybersecurity+Enthusiast+%7C+Competitive+Programmer+%7C+AI%2FML+Researcher)](https://git.io/typing-svg)
+[![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=1500&lines=AR%2FVR+Developer+%7C+Cybersecurity+Enthusiast+%7C+Competitive+Programmer+%7C+AI%2FML+Researcher)](https://git.io/typing-svg)
 
 </div>
 
