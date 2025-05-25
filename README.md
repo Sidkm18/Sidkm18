@@ -1,13 +1,13 @@
 # **Sidharth Kamath**
 <div align="center">
   <h3>
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1050&lines=Building+Tomorrow's+Tech+Today+%F0%9F%9A%80;AR%2FVR+Developer+%F0%9F%A5%BD;Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;AI%2FML+Researcher+%F0%9F%A7%A0;Competitive+Programmer+%F0%9F%A7%A9" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Building+Tomorrow's+Tech+Today+%F0%9F%9A%80;AR%2FVR+Developer+%F0%9F%A5%BD;Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;AI%2FML+Researcher+%F0%9F%A7%A0;Competitive+Programmer+%F0%9F%A7%A9" alt="Typing SVG" />
   </h3>
 </div>
 
 <div align="center">
   
-[![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=1500&lines=AR%2FVR+Developer+%7C+Cybersecurity+Enthusiast+%7C+Competitive+Programmer+%7C+AI%2FML+Researcher)](https://git.io/typing-svg)
+[![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=1100&lines=AR%2FVR+Developer+%7C+Cybersecurity+Enthusiast+%7C+Competitive+Programmer+%7C+AI%2FML+Researcher)](https://git.io/typing-svg)
 
 </div>
 
