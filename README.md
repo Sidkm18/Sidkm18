@@ -14,8 +14,8 @@ Rapidly prototyping, breaking things, and learning fast.
 - Focusing on behavioral analysis of zero-day and signatureless threats
 
 ### 🎯 Image Identification System
-- Built a real-time fruit classification system using Edge Impulse + ESP32-CAM  
-- Collected, labeled, and trained ML models deployed across Linux, Windows, and macOS
+- Built a real-time fruit classification system using **Edge Impulse** + **ESP32-CAM**  
+- Collected, labeled, and trained ML models deployed across **Linux**, **Windows**, and **macOS**
 
 ### 🧩 SIH 2024 Internal Round – Contributor
 - Optimized backend logic and refined data flow for higher efficiency  
@@ -41,10 +41,11 @@ Rapidly prototyping, breaking things, and learning fast.
 
 ## 🧠 Technical Skills
 
-- **Languages:** C++, Python, Java, C, HTML/CSS  
-- **Technologies:** Unity, Blender, Edge Impulse, Kali Linux, ESP-32  
-- **Tools:** VS Code, IntelliJ IDEA, AutoCAD  
-- **Core Strengths:** System design, algorithmic problem solving, threat modeling, team collaboration
+**Languages:** C++, Python, Java, C, HTML/CSS  
+**Frameworks/Tools:** Unity, Blender, Edge Impulse, Kali Linux, AutoCAD  
+**Developer Tools:** VS Code, IntelliJ IDEA  
+**Hardware/Platforms:** ESP32, Linux, macOS  
+**Soft Skills:** Problem Solving, Team Collaboration, Fast Learner
 
 ---
 
