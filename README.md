@@ -174,7 +174,7 @@ Built an intelligent fruit recognition system combining custom CNN training with
 - ☁️ Cloud-edge hybrid architecture for optimal performance
 - 🌐 Cross-platform deployment strategy
 
-[<img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />](your-repo-link)
+[<img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/Sidkm18/Chikoo_Counter)
 
 ---
 
