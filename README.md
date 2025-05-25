@@ -230,13 +230,24 @@ Contributed to pharmaceutical supply chain transparency solution during Smart In
 
 <div align="center">
   
-![Learning](https://img.shields.io/badge/Behavioral%20Analysis-Security%20Applications-FF6B6B?style=for-the-badge)
-![Learning](https://img.shields.io/badge/Advanced%203D%20Graphics-Programming-4ECDC4?style=for-the-badge)
-![Learning](https://img.shields.io/badge/Unreal%20Engine-Mastery%20Path-45B7D1?style=for-the-badge)
+![Learning](https://img.shields.io/badge/Web%20Development-HTML%20%7C%20CSS%20%7C%20JS-FF6B6B?style=for-the-badge&logo=html5&logoColor=white)
+![Learning](https://img.shields.io/badge/DSA%20in%20Java-Data%20Structures%20%26%20Algorithms-4ECDC4?style=for-the-badge&logo=java&logoColor=white)
+![Learning](https://img.shields.io/badge/Kali%20Tools-Penetration%20Testing-45B7D1?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Learning](https://img.shields.io/badge/Behavioral%20Analysis-Security%20Applications-36BCF7?style=for-the-badge&logo=security&logoColor=white)
+![Learning](https://img.shields.io/badge/Advanced%203D%20Graphics-Programming-FF9500?style=for-the-badge&logo=blender&logoColor=white)
+![Learning](https://img.shields.io/badge/Unreal%20Engine-Mastery%20Path-B83DBA?style=for-the-badge&logo=unrealengine&logoColor=white)
 
 </div>
 
-Diving deeper into how AI can predict and prevent cyber attacks through behavioral pattern analysis. Also expanding my 3D graphics knowledge and planning to master Unreal Engine for next-generation immersive experiences that push the boundaries of what's possible in virtual reality.
+**🌐 Web Development Journey:** Mastering the fundamentals of modern web development through hands-on projects like my ADHD Task Manager. Building responsive, interactive applications while learning best practices for frontend development and user experience design.
+
+**☕ Java DSA Deep Dive:** Strengthening my algorithmic foundation by implementing data structures and algorithms in Java. This complements my competitive programming practice and provides a solid foundation for technical interviews and complex problem-solving.
+
+**🔧 Kali Linux Toolkit:** Exploring advanced penetration testing tools and techniques in Kali Linux. Learning hands-on exploitation methods, network analysis tools, and security assessment techniques to complement my CTF participation and cybersecurity research.
+
+**🧠 AI Security Research:** Diving deeper into how artificial intelligence can predict and prevent cyber attacks through behavioral pattern analysis. Researching machine learning applications in threat detection and anomaly identification for next-generation security systems.
+
+**🎮 3D Graphics Mastery:** Expanding my knowledge of advanced 3D graphics programming and planning to master Unreal Engine for next-generation immersive experiences that push the boundaries of what's possible in virtual reality and interactive simulations.
 
 ---
 
@@ -273,10 +284,4 @@ I believe the most innovative solutions emerge when you understand problems from
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+GitHub!+%F0%9F%9A%80;Let's+build+something+amazing+together!+%F0%9F%92%BB;Don't+forget+to+star+%E2%AD%90+interesting+repos!" alt="Footer Typing SVG" />
-</div>
-
-<div align="center">
-  
-*"The future belongs to those who code it into existence"* 💻✨
-
 </div>
