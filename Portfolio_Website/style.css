@@ -30,13 +30,13 @@
         .container div:nth-child(1) {
             height: 100%;
             width: 100%;
-            background-color: #ff057c;
+            background-color: #ea94be;
         }
 
         .container div:nth-child(2) {
             height: 80%;
             width: 70%;
-            background-color: #900977;
+            background-color: #d0b8cb;
             top: -12%;
             right: 12%;
             animation-delay: 2s;
@@ -45,7 +45,7 @@
         .container div:nth-child(3) {
             height: 500%;
             width: 75%;
-            background-color: #cbd745;
+            background-color: #edf2b6;
             bottom: -10%;
             left: -5%;
             animation-delay: 1s;
@@ -54,7 +54,7 @@
         .container div:nth-child(4) {
             height: 65%;
             width: 80%;
-            background-color: #00fbff;
+            background-color: #9edbdc;
             bottom: -15%;
             right: -20%;
             animation-delay: 3s;
@@ -63,7 +63,7 @@
         .container div:nth-child(5) {
             height: 70%;
             width: 65%;
-            background-color: #da7315;
+            background-color: #e6b180;
             bottom: 0;
             right: -50%;
             animation-delay: 1s;
