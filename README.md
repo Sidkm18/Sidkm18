@@ -1,15 +1,15 @@
 # **Sidharth Kamath**
 <div align="center">
   <h3>
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&pause=1000&color=f7441e&center=true&vCenter=true&width=700&lines=Engineering+my+Future+%F0%9F%9A%80;AR%2FVR+Developer+%F0%9F%A5%BD;Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;AI%2FML+Researcher+%F0%9F%A7%A0;Competitive+Programmer+%F0%9F%A7%A9" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=4000&pause=2000&color=f7441e&center=true&vCenter=true&width=700&lines=Engineering+my+Future+%F0%9F%9A%80;" alt="Typing SVG" />
   </h3>
 </div>
 
-<div align="center">
-  
-[![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=36BCF7&center=true&vCenter=true&width=1100&lines=AR%2FVR+Developer+%7C+Cybersecurity+Enthusiast+%7C+Competitive+Programmer+%7C+AI%2FML+Researcher)](https://git.io/typing-svg)
-
-</div>
+<p align="center">
+  <span style="color:#36BCF7; font-weight:normal; font-size:16px;">
+    AR/VR Developer | Cybersecurity Enthusiast | Competitive Programmer | AI/ML Researcher
+  </span>
+</p>
 
 ---
 
@@ -17,10 +17,10 @@
 <div align="center">
 
 ### Programming Languages
-<img src="https://skillicons.dev/icons?i=cpp,python,java,c,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,cpp,python,cs,c,js,html,css&theme=dark" />
 
 ### AR/VR & 3D Development
-<img src="https://skillicons.dev/icons?i=unity,blender&theme=dark" />
+<img src="https://skillicons.dev/icons?i=unity,blender,unreal&theme=dark" />
 
 ### Cybersecurity Arsenal
 <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
@@ -33,7 +33,7 @@
 <img src="https://img.shields.io/badge/Edge%20Impulse-4ECDC4?style=for-the-badge&logo=edgeimpulse&logoColor=white" />
 
 ### Development Tools
-<img src="https://skillicons.dev/icons?i=vscode,idea,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=idea,webstorm,vscode,gitlab,git,github,arduino&theme=dark" />
 
 </div>
 
@@ -219,7 +219,7 @@ Built a minimalist, distraction-friendly task management tool specifically desig
 <img src="https://img.shields.io/badge/Impact-Supply%20Chain%20Transparency-45B7D1?style=flat-square" />
 </div>
 
-Contributed to pharmaceutical supply chain transparency solution during Smart India Hackathon. Focused on creating intuitive user interfaces and optimizing backend performance for large-scale inventory management.
+Contributed to a pharmaceutical supply chain transparency solution during Smart India Hackathon. Focused on creating intuitive user interfaces and optimizing backend performance for large-scale inventory management.
 
 **My Contributions:**
 - 🎨 UI/UX design for improved user flow and system usability
@@ -248,7 +248,7 @@ Contributed to pharmaceutical supply chain transparency solution during Smart In
 
 **🔧 Kali Linux Toolkit:** Exploring advanced penetration testing tools and techniques in Kali Linux. Learning hands-on exploitation methods, network analysis tools, and security assessment techniques to complement my CTF participation and cybersecurity research.
 
-**🧠 AI Security Research:** Diving deeper into how artificial intelligence can predict and prevent cyber attacks through behavioral pattern analysis. Researching machine learning applications in threat detection and anomaly identification for next-generation security systems.
+**🧠 AI Security Research:** Diving deeper into how artificial intelligence can predict and prevent cyberattacks through behavioral pattern analysis. Researching machine learning applications in threat detection and anomaly identification for next-generation security systems.
 
 **🎮 3D Graphics Mastery:** Expanding my knowledge of advanced 3D graphics programming and planning to master Unreal Engine for next-generation immersive experiences that push the boundaries of what's possible in virtual reality and interactive simulations.
 
@@ -286,5 +286,5 @@ I believe the most innovative solutions emerge when you understand problems from
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+GitHub!+%F0%9F%9A%80;Let's+build+something+amazing+together!+%F0%9F%92%BB;Don't+forget+to+star+%E2%AD%90+interesting+repos!" alt="Footer Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=2cf54a&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+GitHub!+%F0%9F%9A%80;Let's+build+something+amazing+together!+%F0%9F%92%BB" alt="Footer Typing SVG" />
 </div>
