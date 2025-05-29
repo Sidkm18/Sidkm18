@@ -104,12 +104,12 @@ Planning to dive into Unreal Engine for high-fidelity simulations and photoreali
 <div align="center">
 
 ![CodeChef](https://img.shields.io/badge/CodeChef-2%20Star%20Rating-5B4638?style=for-the-badge&logo=codechef&logoColor=white)
-![Codeforces](https://img.shields.io/badge/Codeforces-Active%20Participant-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
+![Codeforces](https://img.shields.io/badge/Codeforces-Newbie-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
 ![HackerRank](https://img.shields.io/badge/HackerRank-Java%20Basic%20Certified-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
 
 ### 🌟 **Contest Participation**
 ![CodeChef](https://img.shields.io/badge/CodeChef-12%2B%20Contests-5B4638?style=for-the-badge&logo=codechef&logoColor=white)
-![Codeforces](https://img.shields.io/badge/Codeforces-Newbie-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)
+![Codeforces](https://img.shields.io/badge/Codeforces-6%2B%20Contests-5B4638?style=for-the-badge&logo=codeforces&logoColor=white)
 ![HackerRank](https://img.shields.io/badge/HackerRank-Problem%20Crusher-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
 
 ### ⚡ **Problem Solving Stats**
