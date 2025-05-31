@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <span style="color:2cf54a; font-weight:normal; font-size:16px;">
+  <span style="color:#2cf54a; font-weight:normal; font-size:16px;">
     Building immersive experiences and intelligent security solutions
   </span>
 </p>
