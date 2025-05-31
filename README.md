@@ -7,9 +7,7 @@
 </div>
 
 <p align="center">
-  <span style="color:#2cf54a; font-weight:normal; font-size:16px;">
-    Building immersive experiences and intelligent security solutions
-  </span>
+  <img src="https://img.shields.io/badge/Building%20immersive%20experiences%20and%20intelligent%20security%20solutions-2cf54a?style=for-the-badge&labelColor=000000" />
 </p>
 
 ---
@@ -49,16 +47,12 @@ I actively explore various fields of **computer science** and am finally pursuin
 <img src="https://img.shields.io/badge/Blender-3D%20Design-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
 
 ### 🧑‍💻 IDEs & Dev Tools
-<img src="https://skillicons.dev/icons?i=vscode,idea,webstorm,rider,clion,git,github,arduino&theme=dark" />
-
+<img src="https://skillicons.dev/icons?i=vscode,idea,webstorm,rider,clion,git,github,arduino&theme=dark" /><br>
 <img src="https://img.shields.io/badge/Xcode-Development-147EFB?style=for-the-badge&logo=xcode&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub%20Desktop-181717?style=for-the-badge&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/Homebrew-macOS%20Toolkit-FBB040?style=for-the-badge&logo=homebrew&logoColor=white" />
 
 ### 🌐 Web Dev & Backend (Learning)
-<img src="https://skillicons.dev/icons?i=nodejs,mongodb,firebase&theme=dark" />
-
-
+<img src="https://skillicons.dev/icons?i=nodejs,mongodb,firebase&theme=dark" /><br>
 <img src="https://img.shields.io/badge/Flask-Python%20Web%20Framework-000000?style=for-the-badge&logo=python&logoColor=white" />
 
 </div>
