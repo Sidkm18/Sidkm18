@@ -50,12 +50,14 @@ I actively explore various fields of **computer science** and am finally pursuin
 
 ### 🧑‍💻 IDEs & Dev Tools
 <img src="https://skillicons.dev/icons?i=vscode,idea,webstorm,rider,clion,git,github,arduino&theme=dark" />
+
 <img src="https://img.shields.io/badge/Xcode-Development-147EFB?style=for-the-badge&logo=xcode&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub%20Desktop-181717?style=for-the-badge&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/Homebrew-macOS%20Toolkit-FBB040?style=for-the-badge&logo=homebrew&logoColor=white" />
 
 ### 🌐 Web Dev & Backend (Learning)
 <img src="https://skillicons.dev/icons?i=nodejs,mongodb,firebase&theme=dark" />
+
 
 <img src="https://img.shields.io/badge/Flask-Python%20Web%20Framework-000000?style=for-the-badge&logo=python&logoColor=white" />
 
