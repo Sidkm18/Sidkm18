@@ -37,10 +37,6 @@ I actively explore various fields of **computer science** and am finally pursuin
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
 <img src="https://img.shields.io/badge/Edge%20Impulse-4ECDC4?style=for-the-badge&logo=tensorflow&logoColor=white" />
 
-### 🧠 AI/ML & Simulation
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-Vision-35495E?style=for-the-badge&logo=opencv&logoColor=white" />
-
 ### 🎮 AR/VR & Game Development
 <img src="https://img.shields.io/badge/Unity-3D%20Engine-000000?style=for-the-badge&logo=unity&logoColor=white" />
 <img src="https://img.shields.io/badge/Unreal%20Engine-Next%20Gen%20VR-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" />
