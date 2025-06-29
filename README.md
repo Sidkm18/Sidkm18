@@ -14,8 +14,8 @@
 
 ## 👋 About Me
 
-I am an active learner; I enjoy solving tough questions to challenge myself on **Codeforces** and **CodeChef**, improving my **logical** and **critical thinking**, while also sharpening my **programming skills** on **HackerRank**. I participate with my team in **CTFs** to find hidden flags, which helps me build and enhance my **pentesting** and **vulnerability assessment** skills.
+I am an active learner; I enjoy solving tough questions to challenge myself , improving my **logical** and **critical thinking**, while also sharpening my **programming skills**. I participate with in **CTFs** to find hidden flags, which helps me build and enhance my **pentesting** and **vulnerability assessment** skills.
 
-I actively explore various fields of **computer science** and am finally pursuing my childhood passion for **game development** through **AR/VR**. Aside from that, I participate in **hackathons**—while I haven’t won any yet, I continue to learn from them, identify areas for improvement, and work on them.
+I actively explore various fields of **computer science** and currently pursuing my childhood passion for **game development** through **AR/VR**. Aside from that, I participate in **hackathons**—while I haven’t won any yet, I continue to learn from them, identify areas for improvement, and work on them.
 
 ---
