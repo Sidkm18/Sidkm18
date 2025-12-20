@@ -1,4 +1,4 @@
-# **Sidharth Kamath**
+# **About Me**
 
 <div align="center">
   <h3>
@@ -12,10 +12,10 @@
 
 ---
 
-## 👋 About Me
+I’m a Computer Engineering student who enjoys tackling challenging problems to strengthen **logical** and **critical thinking**, while continuously improving my **programming skills**.
 
-I am an active learner; I enjoy solving tough questions to challenge myself , improving my **logical** and **critical thinking**, while also sharpening my **programming skills**. I participate with in **CTFs** to find hidden flags, which helps me build and enhance my **pentesting** and **vulnerability assessment** skills.
+I actively participate in **CTFs**, where I work on uncovering hidden flags—helping me develop hands-on skills in **penetration testing** and **vulnerability assessment**.
 
-I actively explore various fields of **computer science** and currently pursuing my childhood passion for **game development** through **AR/VR**. Aside from that, I participate in **hackathons**—while I haven’t won any yet, I continue to learn from them, identify areas for improvement, and work on them.
+I explore multiple domains within **computer science** and am currently pursuing my current interests in **game development** through **VR**.
 
 ---
