@@ -4,81 +4,697 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon | Sidharth Kamath</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Sidharth Kamath | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <div class="background-grid"></div>
-    <div class="glow-orbs">
-        <span class="orb orb-1"></span>
-        <span class="orb orb-2"></span>
-        <span class="orb orb-3"></span>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-bg"></canvas>
+
+    <!-- Floating LEGO Bricks -->
+    <div class="floating-bricks" id="floating-bricks"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-trail" id="cursor-trail"></div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="lego-loader">
+            <div class="brick brick-1"></div>
+            <div class="brick brick-2"></div>
+            <div class="brick brick-3"></div>
+            <div class="brick brick-4"></div>
+        </div>
+        <div class="loading-text">
+            <span class="terminal-prompt">&gt;</span>
+            <span id="loading-text-content">Initializing portfolio...</span>
+            <span class="cursor-blink">_</span>
+        </div>
     </div>
 
-    <main class="coming-soon">
-        <div class="terminal-card">
-            <div class="terminal-header">
-                <div class="terminal-buttons">
-                    <span class="btn btn-close"></span>
-                    <span class="btn btn-min"></span>
-                    <span class="btn btn-max"></span>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo" id="nav-logo">
+            <span class="logo-bracket">[</span>
+            <span class="logo-text">SK</span>
+            <span class="logo-bracket">]</span>
+            <div class="lego-easter-egg" id="lego-easter-egg"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active" data-section="home">~/home</a></li>
+            <li><a href="#about" class="nav-link" data-section="about">~/about</a></li>
+            <li><a href="#experience" class="nav-link" data-section="experience">~/experience</a></li>
+            <li><a href="#projects" class="nav-link" data-section="projects">~/projects</a></li>
+            <li><a href="#achievements" class="nav-link" data-section="achievements">~/achievements</a></li>
+            <li><a href="#certifications" class="nav-link" data-section="certifications">~/certs</a></li>
+            <li><a href="#contact" class="nav-link" data-section="contact">~/contact</a></li>
+        </ul>
+        <div class="nav-hamburger" id="nav-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-link">~/home</a></li>
+            <li><a href="#about" class="mobile-nav-link">~/about</a></li>
+            <li><a href="#experience" class="mobile-nav-link">~/experience</a></li>
+            <li><a href="#projects" class="mobile-nav-link">~/projects</a></li>
+            <li><a href="#achievements" class="mobile-nav-link">~/achievements</a></li>
+            <li><a href="#certifications" class="mobile-nav-link">~/certs</a></li>
+            <li><a href="#contact" class="mobile-nav-link">~/contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-terminal" id="hero-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn-close" data-action="close" data-target="hero-terminal"></span>
+                        <span class="btn-minimize" data-action="minimize" data-target="hero-terminal"></span>
+                        <span class="btn-maximize" data-action="maximize" data-target="hero-terminal"></span>
+                    </div>
+                    <div class="terminal-title">sidharth@portfolio:~</div>
                 </div>
-                <div class="terminal-title">sidharth@portfolio:~</div>
+                <div class="terminal-body">
+                    <p class="terminal-line" id="terminal-line-1"><span class="prompt">&gt;</span> <span
+                            class="typed-text"></span><span class="cursor">_</span></p>
+                    <p class="terminal-line hidden" id="terminal-line-2"><span class="prompt">&gt;</span> <span
+                            class="typed-text"></span><span class="cursor">_</span></p>
+                    <p class="terminal-line hidden" id="terminal-line-3"><span class="prompt">&gt;</span> <span
+                            class="typed-text"></span><span class="cursor">_</span></p>
+                </div>
             </div>
-            <div class="terminal-body">
-                <p class="terminal-line"><span class="prompt">&gt;</span> Initializing portfolio...</p>
-                <p class="terminal-line"><span class="prompt">&gt;</span> Assembling bricks and bytes...</p>
-                <p class="terminal-line"><span class="prompt">&gt;</span> Status: <span class="status">Building
-                        Something Epic</span></p>
+
+            <div class="hero-content hidden" id="hero-content">
+                <h1 class="hero-name glitch" data-text="SIDHARTH KAMATH">SIDHARTH KAMATH</h1>
+                <div class="hero-roles">
+                    <span class="role-bracket">{</span>
+                    <span class="role-text" id="role-text">Computer Engineer</span>
+                    <span class="role-bracket">}</span>
+                </div>
+                <p class="hero-tagline">"Building secure systems & immersive experiences, one brick at a time"</p>
+
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-btn primary">
+                        <span class="cta-prompt">&gt;</span> View Projects
+                    </a>
+                    <a href="#certifications" class="cta-btn secondary">
+                        <span class="cta-prompt">&gt;</span> Skills & Certs
+                    </a>
+                    <a href="#contact" class="cta-btn tertiary">
+                        <span class="cta-prompt">&gt;</span> Contact
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/sidkm18" target="_blank" class="social-link lego-stud" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/Sidkm18" target="_blank" class="social-link lego-stud"
+                        title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://codeforces.com/profile/sidkm18" target="_blank" class="social-link lego-stud"
+                        title="Codeforces">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="https://www.codechef.com/users/sidkm18" target="_blank" class="social-link lego-stud"
+                        title="CodeChef">
+                        <i class="fas fa-utensils"></i>
+                    </a>
+                    <a href="https://leetcode.com/sidkm18" target="_blank" class="social-link lego-stud"
+                        title="LeetCode">
+                        <i class="fas fa-laptop-code"></i>
+                    </a>
+                    <a href="https://www.hackerrank.com/sidkm18" target="_blank" class="social-link lego-stud"
+                        title="HackerRank">
+                        <i class="fab fa-hackerrank"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="section-header">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">$ whoami</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-container">
+                <div class="about-left">
+                    <div class="avatar-container">
+                        <div class="lego-frame">
+                            <div class="avatar-placeholder">
+                                <div class="avatar-icon">
+                                    <i class="fas fa-user-astronaut"></i>
+                                </div>
+                            </div>
+                            <div class="lego-studs">
+                                <span class="stud"></span>
+                                <span class="stud"></span>
+                                <span class="stud"></span>
+                                <span class="stud"></span>
+                            </div>
+                        </div>
+                        <div class="rotating-labels">
+                            <span class="label active">CTF Solver</span>
+                            <span class="label">AR/VR Dev</span>
+                            <span class="label">Security Analyst</span>
+                            <span class="label">Competitive Coder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <div class="about-text">
+                        <p>Computer Engineering student with a passion for <span class="highlight">cybersecurity</span>,
+                            <span class="highlight">competitive programming</span>, and <span class="highlight">game
+                                development</span>. I build things that matter—from AR chemistry apps to VS Code
+                            extensions—and break things to understand them better through CTFs.
+                        </p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-block red">
+                            <div class="stat-stud"></div>
+                            <div class="stat-value">9.65</div>
+                            <div class="stat-label">CGPA</div>
+                        </div>
+                        <div class="stat-block blue">
+                            <div class="stat-stud"></div>
+                            <div class="stat-value">Top 20%</div>
+                            <div class="stat-label">CTF Rank</div>
+                        </div>
+                        <div class="stat-block green">
+                            <div class="stat-stud"></div>
+                            <div class="stat-value">7+</div>
+                            <div class="stat-label">Projects Deployed</div>
+                        </div>
+                    </div>
+
+                    <div class="current-status">
+                        <p class="status-line"><span class="prompt">&gt;</span> Currently pursuing: <span
+                                class="status-value">Honours in Cyber Security & Forensics</span></p>
+                        <p class="status-line"><span class="prompt">&gt;</span> Interests: <span
+                                class="status-value typing-effect" id="interests-typing">Network Security, Game Dev,
+                                LEGO MOCs</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-header">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">$ ls skills/</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-brick red" data-category="security">
+                    <div class="brick-studs">
+                        <span class="stud"></span>
+                        <span class="stud"></span>
+                    </div>
+                    <div class="brick-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="brick-title">Security Skills</h3>
+                    <ul class="skill-list">
+                        <li>SIEM Concepts</li>
+                        <li>Network Monitoring</li>
+                        <li>EDR/XDR Fundamentals</li>
+                        <li>CTF Problem Solving</li>
+                    </ul>
+                    <div class="skill-hover-details">
+                        <span class="proficiency">Advanced</span>
+                    </div>
+                </div>
+
+                <div class="skill-brick blue" data-category="languages">
+                    <div class="brick-studs">
+                        <span class="stud"></span>
+                        <span class="stud"></span>
+                    </div>
+                    <div class="brick-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="brick-title">Languages</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>C</li>
+                    </ul>
+                    <div class="skill-hover-details">
+                        <span class="proficiency">Proficient</span>
+                    </div>
+                </div>
+
+                <div class="skill-brick green" data-category="frameworks">
+                    <div class="brick-studs">
+                        <span class="stud"></span>
+                        <span class="stud"></span>
+                    </div>
+                    <div class="brick-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3 class="brick-title">Frameworks</h3>
+                    <ul class="skill-list">
+                        <li>Unity</li>
+                        <li>Unreal Engine 5</li>
+                    </ul>
+                    <div class="skill-hover-details">
+                        <span class="proficiency">Intermediate</span>
+                    </div>
+                </div>
+
+                <div class="skill-brick yellow" data-category="tools">
+                    <div class="brick-studs">
+                        <span class="stud"></span>
+                        <span class="stud"></span>
+                    </div>
+                    <div class="brick-icon"><i class="fas fa-tools"></i></div>
+                    <h3 class="brick-title">Dev Tools</h3>
+                    <ul class="skill-list">
+                        <li>Git</li>
+                        <li>VS Code</li>
+                        <li>IntelliJ IDEA</li>
+                    </ul>
+                    <div class="skill-hover-details">
+                        <span class="proficiency">Expert</span>
+                    </div>
+                </div>
+
+                <div class="skill-brick orange" data-category="soft">
+                    <div class="brick-studs">
+                        <span class="stud"></span>
+                        <span class="stud"></span>
+                    </div>
+                    <div class="brick-icon"><i class="fas fa-comments"></i></div>
+                    <h3 class="brick-title">Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Teamwork</li>
+                        <li>Communication</li>
+                        <li>English</li>
+                        <li>Hindi</li>
+                    </ul>
+                    <div class="skill-hover-details">
+                        <span class="proficiency">Excellent</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="section-header">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">$ cat experience.log</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-card glitch-border">
+                        <div class="card-header">
+                            <div class="terminal-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="card-role">NETWORK & SECURITY INTERN</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-company">Universal Sompo General Insurance</h3>
+                            <p class="card-date"><i class="far fa-calendar-alt"></i> December 2025 – January 2026</p>
+                            <div class="card-tasks">
+                                <div class="task-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Network Monitoring</span>
+                                </div>
+                                <div class="task-item">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    <span>Threat Detection</span>
+                                </div>
+                                <div class="task-item">
+                                    <i class="fas fa-lock"></i>
+                                    <span>Firewall & Access Control</span>
+                                </div>
+                                <div class="task-item">
+                                    <i class="fas fa-radar"></i>
+                                    <span>SOC Operations & EDR/XDR</span>
+                                </div>
+                            </div>
+                            <div class="card-highlights">
+                                <h4>Key Focus:</h4>
+                                <ul>
+                                    <li>SIEM dashboards & security events</li>
+                                    <li>Malware indicators & suspicious activity</li>
+                                    <li>Endpoint security under SOC supervision</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-card glitch-border">
+                        <div class="card-header">
+                            <div class="terminal-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="card-role">AR/VR DEVELOPER INTERN</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-company">SwDC, KJSCE</h3>
+                            <p class="card-date"><i class="far fa-calendar-alt"></i> May 2025 – June 2025</p>
+                            <div class="card-tasks">
+                                <div class="task-item">
+                                    <i class="fas fa-vr-cardboard"></i>
+                                    <span>Immersive Experiences</span>
+                                </div>
+                                <div class="task-item">
+                                    <i class="fas fa-cube"></i>
+                                    <span>3D Development</span>
+                                </div>
+                                <div class="task-item">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>Cross-platform AR</span>
+                                </div>
+                            </div>
+                            <div class="card-highlights">
+                                <h4>Delivered:</h4>
+                                <ul>
+                                    <li>AR chemistry simulations (Unity)</li>
+                                    <li>VR therapeutic environment (UE5)</li>
+                                    <li>4 standalone iOS/Android apps</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-header">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">$ ./projects --list</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-project="leethelp">
+                    <div class="project-scanline"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3 class="project-title">LeetHelp</h3>
+                    <div class="project-tags">
+                        <span class="tag extension">Extension</span>
+                        <span class="tag ai">AI-Assisted</span>
+                        <span class="tag tools">Developer Tools</span>
+                    </div>
+                    <p class="project-description">Frictionless LeetCode workflow inside VS Code with AI-powered hints
+                        and solutions.</p>
+                    <button class="project-btn">
+                        <span class="btn-prompt">&gt;</span> View Details
+                    </button>
+                </div>
+
+                <div class="project-card" data-project="hearmeout">
+                    <div class="project-scanline"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="project-title">hearMeOut</h3>
+                    <div class="project-tags">
+                        <span class="tag firebase">Firebase</span>
+                        <span class="tag health">Mental Health</span>
+                        <span class="tag ai">AI Integration</span>
+                    </div>
+                    <p class="project-description">Connecting students with counselors securely. A mental health support
+                        platform.</p>
+                    <button class="project-btn">
+                        <span class="btn-prompt">&gt;</span> View Details
+                    </button>
+                </div>
+
+                <div class="project-card" data-project="atomic">
+                    <div class="project-scanline"></div>
+                    <div class="project-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="project-title">Atomic & Compounding QR</h3>
+                    <div class="project-tags">
+                        <span class="tag ar">AR</span>
+                        <span class="tag unity">Unity</span>
+                        <span class="tag education">Education</span>
+                    </div>
+                    <p class="project-description">Visualizing chemistry in augmented reality. Interactive molecular
+                        structures.</p>
+                    <button class="project-btn">
+                        <span class="btn-prompt">&gt;</span> View Details
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div class="project-modal" id="project-modal">
+            <div class="modal-content">
+                <button class="modal-close" id="modal-close">&times;</button>
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modal-title">Project Title</h2>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <!-- Dynamic content -->
+                </div>
             </div>
         </div>
 
-        <section class="hero">
-            <div class="badge">System Initializing</div>
-            <h1 class="title">SIDHARTH KAMATH</h1>
-            <p class="subtitle">Computer Engineer • Cybersecurity Enthusiast • VR Developer</p>
-            <p class="tagline">"Building secure systems & immersive experiences, one brick at a time"</p>
+        <!-- Achievements Section -->
+        <section id="achievements" class="section achievements-section">
+            <div class="section-header">
+                <span class="section-number">05.</span>
+                <h2 class="section-title">$ cat achievements.json</h2>
+                <div class="section-line"></div>
+            </div>
 
-            <div class="cta-row">
-                <a href="https://github.com/sidkm18" class="cta primary" target="_blank" rel="noreferrer">
-                    <span class="cta-icon">→</span> Explore GitHub
-                </a>
-                <a href="https://linkedin.com/in/Sidkm18" class="cta ghost" target="_blank" rel="noreferrer">
-                    Connect on LinkedIn
-                </a>
+            <div class="achievements-wall">
+                <div class="achievement-badge">
+                    <div class="badge-icon">🏆</div>
+                    <div class="badge-content">
+                        <h3 class="badge-title">KJSCE CTF 2.0</h3>
+                        <p class="badge-subtitle">Top 20% • Steganography</p>
+                        <p class="badge-details">Cryptography • Reverse Engineering</p>
+                        <a href="#" class="badge-link">View Certificate →</a>
+                    </div>
+                    <div class="badge-glow"></div>
+                </div>
+
+                <div class="achievement-badge">
+                    <div class="badge-icon">🎓</div>
+                    <div class="badge-content">
+                        <h3 class="badge-title">Network Ethical Hacking</h3>
+                        <p class="badge-subtitle">Cisco Networking Academy</p>
+                        <p class="badge-details">Sniffing • Spoofing • Vulnerability Scanning</p>
+                    </div>
+                    <div class="badge-glow"></div>
+                </div>
             </div>
         </section>
 
-        <section class="info-grid">
-            <div class="info-card red">
-
-                <div class="card-title">Cybersecurity</div>
-                <div class="card-text">SOC operations, threat detection & CTF challenges</div>
+        <!-- Certifications Section -->
+        <section id="certifications" class="section certifications-section">
+            <div class="section-header">
+                <span class="section-number">06.</span>
+                <h2 class="section-title">$ gpg --verify certs/</h2>
+                <div class="section-line"></div>
             </div>
-            <div class="info-card blue">
 
-                <div class="card-title">AR/VR Development</div>
-                <div class="card-text">Immersive experiences with Unity & Unreal Engine 5</div>
-            </div>
-            <div class="info-card yellow">
+            <div class="certs-carousel">
+                <div class="cert-card">
+                    <div class="cert-border"></div>
+                    <div class="cert-header">
+                        <div class="cert-logo">ISC²</div>
+                        <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    </div>
+                    <h3 class="cert-title">Certified in Cybersecurity (CC)</h3>
+                    <p class="cert-date">December 2025</p>
+                    <div class="cert-skills">
+                        <span>Network Security</span>
+                        <span>Threat Detection</span>
+                        <span>Risk Management</span>
+                        <span>Access Controls</span>
+                    </div>
+                    <a href="#" class="cert-verify">
+                        <i class="fas fa-external-link-alt"></i> Verify on Credly
+                    </a>
+                </div>
 
-                <div class="card-title">Competitive Coding</div>
-                <div class="card-text">Algorithm analysis & creative problem solving</div>
+                <div class="cert-card">
+                    <div class="cert-border"></div>
+                    <div class="cert-header">
+                        <div class="cert-logo">Google</div>
+                        <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    </div>
+                    <h3 class="cert-title">Google Cybersecurity Professional</h3>
+                    <p class="cert-date">2025</p>
+                    <div class="cert-skills">
+                        <span>Security Operations</span>
+                        <span>Linux</span>
+                        <span>Python</span>
+                        <span>SIEM Tools</span>
+                    </div>
+                    <a href="#" class="cert-verify">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-border"></div>
+                    <div class="cert-header">
+                        <div class="cert-logo">Cisco</div>
+                        <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    </div>
+                    <h3 class="cert-title">SOC Operations Fundamentals</h3>
+                    <p class="cert-date">2025</p>
+                    <div class="cert-skills">
+                        <span>SOC Procedures</span>
+                        <span>Incident Response</span>
+                        <span>Threat Analysis</span>
+                    </div>
+                    <a href="#" class="cert-verify">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
             </div>
         </section>
 
-        <footer class="footer">
-            <span>© 2026 Sidharth Kamath</span>
-            <span class="divider">•</span>
-            <span>Built brick by brick with 💚 and <span class="code">&lt;/&gt;</span></span>
-        </footer>
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <span class="section-number">07.</span>
+                <h2 class="section-title">$ ssh connect@sidharth</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-terminal" id="contact-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn-close" data-action="close" data-target="contact-terminal"></span>
+                        <span class="btn-minimize" data-action="minimize" data-target="contact-terminal"></span>
+                        <span class="btn-maximize" data-action="maximize" data-target="contact-terminal"></span>
+                    </div>
+                    <div class="terminal-title">contact@sidharth:~</div>
+                </div>
+                <div class="terminal-body contact-body">
+                    <p class="contact-typing" id="contact-typing">
+                        <span class="prompt">&gt;</span> Ready to collaborate? Let's build something together.
+                    </p>
+
+                    <div class="contact-box">
+                        <div class="contact-header">┌─ CONNECT WITH ME ──────────────────────┐</div>
+                        <div class="contact-content">
+                            <a href="https://github.com/sidkm18" target="_blank" class="contact-link">
+                                <i class="fab fa-github"></i>
+                                <span>github.com/sidkm18</span>
+                            </a>
+                            <a href="https://linkedin.com/in/Sidkm18" target="_blank" class="contact-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>linkedin.com/in/Sidkm18</span>
+                            </a>
+                            <div class="contact-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Based in: Mumbai, India 🇮🇳</span>
+                            </div>
+                        </div>
+                        <div class="contact-footer">└─────────────────────────────────────────┘</div>
+                    </div>
+
+                    <div class="interests-section">
+                        <p><span class="prompt">&gt;</span> Interested in:</p>
+                        <ul class="interests-list">
+                            <li>• Cybersecurity opportunities</li>
+                            <li>• AR/VR projects</li>
+                            <li>• Collaborative hackathons</li>
+                            <li>• LEGO & tech discussions</li>
+                        </ul>
+                    </div>
+
+                    <div class="current-building">
+                        <span class="prompt">&gt;</span> Currently building:
+                        <span class="building-status" id="building-status">Loading project status...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-lego-decoration">
+            <div class="mini-brick"></div>
+            <div class="mini-brick"></div>
+            <div class="mini-brick"></div>
+            <div class="mini-brick"></div>
+            <div class="mini-brick"></div>
+        </div>
+        <div class="footer-content">
+            <p>Built brick by brick with 💚 and &lt;/&gt;</p>
+            <p class="footer-copy">© 2026 Sidharth Kamath</p>
+        </div>
+        <div class="footer-brick-animation">
+            <div class="animated-brick"></div>
+        </div>
+    </footer>
+
+    <!-- Hidden Terminal (Easter Egg) -->
+    <div class="hidden-terminal" id="hidden-terminal">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="btn-close" data-action="close" data-target="hidden-terminal"></span>
+                <span class="btn-minimize" data-action="minimize" data-target="hidden-terminal"></span>
+                <span class="btn-maximize" data-action="maximize" data-target="hidden-terminal"></span>
+            </div>
+            <div class="terminal-title">secret@terminal:~</div>
+        </div>
+        <div class="terminal-body">
+            <div class="terminal-output" id="terminal-output">
+                <p><span class="prompt">&gt;</span> Welcome to the secret terminal!</p>
+                <p><span class="prompt">&gt;</span> Type 'help' for available commands.</p>
+            </div>
+            <div class="terminal-input-line">
+                <span class="prompt">&gt;</span>
+                <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false">
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
