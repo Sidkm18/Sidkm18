@@ -1,0 +1,190 @@
+{
+  "main": {
+    "name": "Sidharth Kamath",
+    "occupation": "Cybersecurity & Systems Engineer | AI/ML Developer",
+    "description": "",
+    "image": "profilepic.jpg",
+    "bio": "I am driven by curiosity about how technology works beneath the surface. As an engineer, I am particularly interested in cybersecurity and system design — studying how complex systems fail, uncovering vulnerabilities, and building solutions that make them more secure and resilient. I enjoy collaborating with teams during hackathons, where rapid experimentation and problem-solving lead to practical systems. Beyond academics, I focus on discipline, consistency, and improving a little every day.",
+    "contactmessage": "Let's build secure and innovative solutions together!",
+    "email": "kamathsidharth5@gmail.com",
+    "phone": "+91-9137976756",
+    "address": {
+      "street": "",
+      "city": "Mumbai",
+      "state": "MH",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/Sidkm18",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/sidkm18",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "codeforces",
+        "url": "https://codeforces.com/profile/sxdh",
+        "className": "fa fa-code"
+      },
+      {
+        "name": "codechef",
+        "url": "https://www.codechef.com/users/sxdh",
+        "className": "fa fa-code"
+      },
+      {
+        "name": "leetcode",
+        "url": "https://leetcode.com/u/sidkm18",
+        "className": "fa fa-code"
+      }
+    ],
+    "profiles": []
+  },
+  "resume": {
+    "skillmessage": "My Technical Arsenal",
+    "education": [
+      {
+        "school": "KJ Somaiya College of Engineering, Mumbai",
+        "degree": "B.Tech in Computer Engineering",
+        "graduated": "2024--2028",
+        "description": "CGPA (up to Semester III): 9.65/10 | Honours in Cyber Security and Forensics"
+      },
+      {
+        "school": "Pace Junior Science College, Thane",
+        "degree": "Higher Secondary Education (MSBHSE)",
+        "graduated": "2022--2024",
+        "description": ""
+      },
+      {
+        "school": "Hiranandani Foundation School, Thane",
+        "degree": "Secondary Education (ICSE)",
+        "graduated": "2009--2022",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Universal Sompo General Insurance",
+        "title": "Intern --- Network & Security",
+        "years": "December 2025 -- January 2026",
+        "description": "Monitored 500+ daily security events across SIEM dashboards and correlated alerts with system logs for threat triage. Identified malware indicators and suspicious IP activity using traffic analysis. Reviewed firewall rules, ACL configurations, and endpoint security policies in collaboration with the SOC team. Analyzed EDR/XDR alerts and contributed to incident response documentation."
+      },
+      {
+        "company": "SwDC, KJSCE",
+        "title": "AR/VR Developer Intern",
+        "years": "May 2025 -- June 2025",
+        "description": "Built 4 interactive AR applications in Unity, visualizing atomic and compound structures for iOS and Android. Designed immersive 3D environments for a VR-based therapeutic experience in Unreal Engine 5."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Languages: Python, Java, C++, C, JavaScript, TypeScript",
+        "level": "95%"
+      },
+      {
+        "name": "ML / AI: Vector Embeddings, Transformer Models, Groq SDK, Gemini API, NLP Pipelines",
+        "level": "85%"
+      },
+      {
+        "name": "Cybersecurity: SIEM, EDR/XDR, Network Monitoring, Nmap, Nikto, SQLMap, Burp Suite, Wireshark",
+        "level": "90%"
+      },
+      {
+        "name": "Security: Reverse Engineering, OSINT, Digital Forensics, CTF Problem Solving",
+        "level": "88%"
+      },
+      {
+        "name": "Frameworks: Flask, Node.js, Express, React, Firebase, Docker, Unity",
+        "level": "85%"
+      },
+      {
+        "name": "Dev Tools: Git, Docker, VS Code, Kali Linux, Cisco Packet Tracer, VMware",
+        "level": "92%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MCEP --- Micro-Credential Examination Platform",
+        "about": "Developed an enterprise-grade credential platform supporting multi-role RBAC for students, institutes, employers, and administrators. Implemented secure authentication using Keycloak OAuth2/OIDC and credential verification via DigiLocker, blockchain validation, and manual review.",
+        "url": "#",
+        "tech": "NestJS, Next.js 14, Prisma, PostgreSQL, Keycloak"
+      },
+      {
+        "title": "AegisScan --- Autonomous Security Testing Framework",
+        "about": "Built an automated penetration testing framework orchestrating tools including Nmap, Nikto, SQLMap, DirB, WPScan, and SearchSploit. Implemented Docker-based container isolation with input validation and target whitelisting. Enabled LLM-assisted scan orchestration to dynamically select and sequence reconnaissance and vulnerability tests.",
+        "url": "#",
+        "tech": "Python, Docker, Kali Linux, MCP Protocol"
+      },
+      {
+        "title": "hearMeOut --- AI-Assisted Student Wellness Platform",
+        "about": "Built a platform connecting students, counsellors, and administrators for mental health support and digital journaling. Integrated AI-based mood analysis using PHQ-9/GAD-7 assessments to assist early detection of mental health concerns. Implemented secure journaling, counsellor booking, and moderated anonymous discussion forums.",
+        "url": "#",
+        "tech": "React, Firebase, Gemini API"
+      },
+      {
+        "title": "LeetHelper --- VS Code Extension for LeetCode",
+        "about": "Built a VS Code extension enabling users to browse, solve, test, and submit LeetCode problems directly within the editor. Implemented LeetCode API integration with cookie-based session authentication and custom test case execution. Packaged and published the extension using vsce with daily challenge sync and multi-language support.",
+        "url": "#",
+        "tech": "TypeScript, VS Code Extension API, Webpack"
+      }
+    ]
+  },
+  "achievements": {
+    "certifications": [
+      {
+        "title": "ISC2 --- Certified in Cybersecurity (CC)",
+        "date": "December 2025",
+        "description": "Industry-recognized certification covering network security, threat detection, risk management, and access controls."
+      },
+      {
+        "title": "Google --- Play It Safe: Manage Security Risks",
+        "date": "September 2025",
+        "url": "https://coursera.org/share/eb9d0fd9efbda0784d682e08842c5e81"
+      },
+      {
+        "title": "Cisco --- Security Operations Center (SOC)",
+        "date": "August 2025",
+        "url": "https://coursera.org/share/72f2ec67f19913567bc0010fee3b54c9"
+      },
+      {
+        "title": "Cisco Networking Academy --- Introduction to Cybersecurity",
+        "date": "August 2025",
+        "url": "https://www.credly.com/badges/91fa4e6e-9cd9-4855-9d4c-943416aa39ab/linked_in_profile"
+      },
+      {
+        "title": "Google --- Foundations of Cybersecurity",
+        "date": "July 2025",
+        "url": "https://coursera.org/share/c33703bd4003e2cbb0f239090302dd96"
+      }
+    ],
+    "ctfs": [
+      {
+        "title": "KJSCE CTF 3.0 --- Top 10%",
+        "date": "February 2026",
+        "description": "Solved challenges in forensics, cryptography, and reverse engineering in a 24-hour jeopardy-style CTF."
+      },
+      {
+        "title": "KJSCE CTF 2.0 --- Top 20%",
+        "date": "February 2025",
+        "description": "Solved challenges in steganography, cryptography, and reverse engineering."
+      },
+      {
+        "title": "Multiple Online CTFs --- Active Participant",
+        "date": "2025--2026",
+        "description": "Regular participant in online jeopardy-style CTFs covering web exploitation, binary analysis, and OSINT."
+      },
+      {
+        "title": "CodeChef --- 2 Star Rated",
+        "date": "February 2026",
+        "description": "Consistent performance in rated algorithmic contests."
+      }
+    ]
+  }
+}
