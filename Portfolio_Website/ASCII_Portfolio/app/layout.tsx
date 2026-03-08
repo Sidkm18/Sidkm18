@@ -2,7 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { JetBrains_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import { ThemeToggle } from "@/components/theme-provider"
+import { ThemeProvider, ThemeSelector } from "@/components/theme-provider"
 import "./globals.css"
 
 const jetbrainsMono = JetBrains_Mono({
@@ -41,8 +41,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${jetbrainsMono.className} antialiased`}>
-        <ThemeToggle />
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
+          <ThemeSelector />
+          {children}
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>

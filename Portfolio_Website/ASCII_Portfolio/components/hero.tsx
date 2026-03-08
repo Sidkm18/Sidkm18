@@ -7,7 +7,7 @@ interface HeroProps {
 
 export default function Hero({ data }: HeroProps) {
   return (
-    <section className="container mx-auto px-4 py-16 md:py-24 relative">
+    <section className="container mx-auto px-4 py-16 md:py-24 relative" id="home">
       <div className="flex flex-col items-center justify-center gap-8">
         {/* ASCII Art Banner */}
         <div className="font-mono text-xs md:text-sm leading-tight text-foreground">

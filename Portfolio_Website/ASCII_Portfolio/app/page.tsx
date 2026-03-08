@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import About from "@/components/about"
 import Experience from "@/components/experience"
@@ -42,7 +43,8 @@ export default function Page() {
   }
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background pt-20">
+      <Navbar />
       <Hero data={data.main} />
       <About data={data.main} />
       <Experience data={data.resume} />
