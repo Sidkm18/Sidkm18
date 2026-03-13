@@ -14,8 +14,6 @@
 
 Checkout my portfolio at [Sidkm18](https://sidkm18.vercel.app/)
 
-Checkout my portfolio at [Sidkm18](https://sidkm18.vercel.app/)
-
 I’m a Computer Engineering student who enjoys tackling challenging problems to strengthen **logical** and **critical thinking**, while continuously improving my **programming skills**.
 
 I actively participate in **CTFs**, where I work on uncovering hidden flags—helping me develop hands-on skills in **penetration testing** and **vulnerability assessment**.
